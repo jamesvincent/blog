@@ -1,9 +1,9 @@
-title: "Modern Workplace Architect"
-description: "Practical architecture, engineering, and strategy for Microsoft Intune, endpoint management, and modern workplace transformation."
+title: "JamesVincent.co.uk"
+description: "Technical architecture, engineering insight, and field notes on Microsoft Intune, endpoint management, and modern workplace transformation."
 author: "James Vincent"
 email: ""
-url: "https://yourusername.github.io"
-baseurl: "/modern-workplace-blog"
+url: "https://jamesvincent.co.uk"
+baseurl: ""
 lang: en_GB
 timezone: Europe/London
 
@@ -21,7 +21,7 @@ minima:
   social_links:
     - title: GitHub
       icon: github
-      url: https://github.com/yourusername
+      url: https://github.com/jamesvincent
 
 header_pages:
   - about.md
@@ -34,7 +34,7 @@ google_analytics: ""
 
 # utterances configuration
 utterances:
-  repo: "yourusername/modern-workplace-blog"
+  repo: "jamesvincent/blog"
   issue_term: "pathname"
   theme: "github-light"
   label: "comments"

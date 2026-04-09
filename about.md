@@ -4,17 +4,20 @@ title: About
 permalink: /about/
 ---
 
-## About Me
+## About James Vincent
 
 I am a technical Modern Workplace Architect focused on endpoint management, cloud-native device design, and secure enterprise transformation.
 
-My typical areas of focus include:
+My work typically sits at the intersection of architecture, engineering, and service design, with a particular emphasis on turning strategic intent into workable delivery patterns.
 
-- Microsoft Intune and policy architecture
-- Windows Autopilot and provisioning design
-- Application packaging and catalog strategy
+## Focus Areas
+
+- Microsoft Intune and endpoint policy architecture
+- Windows Autopilot and modern provisioning design
+- Application packaging and catalogue rationalisation
 - App Control for Business and Endpoint Privilege Management
 - Transition planning away from legacy tooling such as SCCM and third-party control products
+- Operating model, governance, and support readiness for modern desktop services
 
 ## What This Blog Covers
 
@@ -26,6 +29,6 @@ This site is used to publish practical content for technical architects, enginee
 - security and management strategy
 - field notes from real-world projects
 
-## Why GitHub Pages
+## About the Site
 
-This blog is intentionally lightweight, easy to maintain, and portable. Content is written in Markdown and published via GitHub Pages.
+This blog is intentionally lightweight, portable, and easy to maintain. Content is written in Markdown, published through GitHub Pages, and designed to stay fast and readable.
