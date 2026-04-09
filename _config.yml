@@ -7,7 +7,7 @@ baseurl: ""
 lang: en_GB
 timezone: Europe/London
 
-remote_theme: "jekyll/minima@1e8a445"
+theme: minima
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 
@@ -16,8 +16,6 @@ plugins:
   - jekyll-seo-tag
 
 minima:
-  skin: auto
-  show_excerpts: true
   social_links:
     - title: GitHub
       icon: github
@@ -28,20 +26,13 @@ header_pages:
   - search.md
   - tags.md
 
-# Google Analytics 4 measurement ID. Minima will only render this in production.
-# Example: G-XXXXXXXXXX
 google_analytics: ""
 
-# utterances configuration
 utterances:
   repo: "jamesvincent/blog"
   issue_term: "pathname"
   theme: "github-light"
   label: "comments"
-
-collections:
-  pages:
-    output: true
 
 defaults:
   - scope:
