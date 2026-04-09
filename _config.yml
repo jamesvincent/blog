@@ -1,7 +1,6 @@
 title: "JamesVincent.co.uk"
 description: "Technical architecture, engineering insight, and field notes on Microsoft Intune, endpoint management, and modern workplace transformation."
 author: "James Vincent"
-email: ""
 url: "https://jamesvincent.co.uk"
 baseurl: ""
 lang: en_GB
@@ -15,12 +14,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-minima:
-  social_links:
-    - title: GitHub
-      icon: github
-      url: https://github.com/jamesvincent
-
 header_pages:
   - about.md
   - search.md
@@ -33,9 +26,3 @@ utterances:
   issue_term: "pathname"
   theme: "github-light"
   label: "comments"
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      image: /assets/site-card.png
