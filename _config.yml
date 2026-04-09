@@ -1,0 +1,50 @@
+title: "Modern Workplace Architect"
+description: "Practical architecture, engineering, and strategy for Microsoft Intune, endpoint management, and modern workplace transformation."
+author: "James Vincent"
+email: ""
+url: "https://yourusername.github.io"
+baseurl: "/modern-workplace-blog"
+lang: en_GB
+timezone: Europe/London
+
+theme: minima
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+minima:
+  skin: auto
+  show_excerpts: true
+  social_links:
+    - title: GitHub
+      icon: github
+      url: https://github.com/yourusername
+
+header_pages:
+  - about.md
+  - search.md
+  - tags.md
+
+# Google Analytics 4 measurement ID. Minima will only render this in production.
+# Example: G-XXXXXXXXXX
+google_analytics: ""
+
+# utterances configuration
+utterances:
+  repo: "yourusername/modern-workplace-blog"
+  issue_term: "pathname"
+  theme: "github-light"
+  label: "comments"
+
+collections:
+  pages:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/site-card.png
