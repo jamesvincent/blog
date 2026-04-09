@@ -2,7 +2,7 @@ title: "JamesVincent.co.uk"
 description: "Technical architecture, engineering insight, and field notes on Microsoft Intune, endpoint management, and modern workplace transformation."
 author: "James Vincent"
 url: "https://jamesvincent.co.uk"
-baseurl: ""
+baseurl: "/blog/"
 lang: en_GB
 timezone: Europe/London
 
